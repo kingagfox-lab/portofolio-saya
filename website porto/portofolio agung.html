@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Fotografi & Sinematik</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">MY PORTOFOLIO</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <h1>Mengabadikan Momen dengan Seni sinematografi</h1>
+          <p>
+            Saya adalah siswa SMK dengan passion dalam fotografi dan
+            sinematografi. Saya senang mengabadikan keindahan senja dan
+            kehangatan cahaya pagi melalui lensa kamera.
+          </p>
+          <a href="#portfolio" class="btn">About me</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-content">
+          <div class="about-img">
+            <img src="foto profil.jpg" alt="Foto Profil" />
+          </div>
+          <div class="about-text">
+            <h3>Halo, Saya Agung</h3>
+            <p>
+              Saya adalah siswa kelas 10 SMK Negeri 6 Surakarta, kelas PPLG.
+              Sejak kecil, saya tertarik dengan dunia visual dan seni. Fotografi
+              dan sinematografi menjadi passion saya karena melalui kedua media
+              ini, saya dapat menceritakan kisah dan mengekspresikan emosi.
+            </p>
+            <p>
+              Saya khususnya menyukai fotografi landscape dengan tema senja dan
+              pagi hari. Keindahan cahaya pada waktu-waktu tersebut memberikan
+              nuansa magis yang sulit diungkapkan dengan kata-kata.
+            </p>
+            <div class="skills">
+              <span class="skill">Fotografi Landscape</span>
+              <span class="skill">Editing Video</span>
+              <span class="skill">Snapseed</span>
+              <span class="skill">Lightroom</span>
+              <span class="skill">Color Grading</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2 class="section-title">Portofolio Saya</h2>
+
+        <div class="filter-section">
+          <div class="filter-anchor" id="all"></div>
+          <div class="filter-anchor" id="senja"></div>
+          <div class="filter-anchor" id="pagi"></div>
+          <div class="filter-anchor" id="sinematik"></div>
+
+          <div class="portfolio-filters">
+            <a href="#all" class="filter-btn active">Semua</a>
+            <a href="#senja" class="filter-btn">Sekolah</a>
+            <a href="#pagi" class="filter-btn">Alam</a>
+            <a href="#sinematik" class="filter-btn">Landscape</a>
+          </div>
+
+          <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="senja">
+              <img src="awan1.jpg" alt="Senja di Pantai" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>Foto awan</h3>
+                  <p>Fotografi random</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="pagi">
+              <img src="tanaman merah.jpg" alt="Cahaya Pagi di Hutan" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>tanaman</h3>
+                  <p>Fotografi Alam</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="sinematik">
+              <img src="masjid.jpg" alt="Adegan Sinematik" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>Masjid dan awan</h3>
+                  <p>foto landscape</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="senja">
+              <img src="basket.jpg" alt="Kota di Senja Hari" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>basket</h3>
+                  <p>Outdoor</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="pagi">
+              <img src="gambar pohon.jpg" alt="Danau di Pagi Hari" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>Foto pepohonan</h3>
+                  <p>Fotografi Alam</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="sinematik">
+              <img src="reynu.jpg" alt="Produksi Film" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>Friend</h3>
+                  <p>Olahraga</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h3>Lokasi</h3>
+                <p>Surakarta, Indonesia</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p>kingagfox@email.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h3>Telepon</h3>
+                <p>+62 852-9845-9963</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nama Anda"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Anda"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Subjek"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Pesan Anda"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+        </div>
+        <p class="copyright">
+          &copy; 2025 Portofolio Fotografi & Sinematik. Dibuat dengan penuh
+          passion.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
